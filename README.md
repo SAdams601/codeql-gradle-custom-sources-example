@@ -14,7 +14,7 @@ The query simply selects all classes in the sources, but the "correct" result wo
 +--------------+------------+
 | Main         | Is a Class |
 | StandardTest | Is a Class |
-| StandardTest | Is a Class |
+| CustomTest   | Is a Class |
 ```
 
 Which is the result if you modify the database create command to be:  `codeql database create custom-sources-gradle --language=java --overwrite`
