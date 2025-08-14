@@ -1,0 +1,7 @@
+name: custom-sources-gradle
+dependencies:
+    codeql/java-all: "*"
+    codeql/java-queries: "*"
+extractor: java
+tests: .
+warnOnImplicitThis: true
